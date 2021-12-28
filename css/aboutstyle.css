@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
     padding-bottom: 40px;
 }
 
@@ -55,6 +56,15 @@ ul {
     text-decoration: none;
 }
 
+/* Image */
+#contact-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: auto;
+}
+
 /* Container one */
 .container-one {
     background-color: #1F2937;
@@ -86,4 +96,40 @@ ul {
 
 .container-two h3 {
     padding-top: 30px;
+}
+
+/* Container three */
+.container-three {
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.container-three h3 {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.container-three h2 {
+    text-align: center;
+}
+
+.container-three p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #F9FAF8;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
 }
