@@ -5,3 +5,85 @@ body {
     color: white;
     font-family: 'Roboto', 'Helvetica';
 }
+
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    font-weight: bold;
+}
+
+.right .links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    padding-right: 100px;
+}
+
+.links a, a:visited {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #E5E7EB;
+    opacity: 0.7;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#home-link {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* Container one */
+.container-one {
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.container-one h3 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+
+.container-one p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+/* Container two */
+.container-two {
+    background-color: #F9FAF8;
+    color: black;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.container-two h3 {
+    padding-top: 30px;
+}
