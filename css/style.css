@@ -9,13 +9,12 @@ body {
 /* Header including links */
 
 .header{
-    background-color: #1F2937;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 150px;
+    width: auto;
+    height: 100px;
 }
 
 .logo {
@@ -60,7 +59,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 150px;
+    width: auto;
+    height: 600px;
 }
 
 #hero-text-primary {
